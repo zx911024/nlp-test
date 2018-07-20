@@ -1,0 +1,3 @@
+2018-04-10 10:34:16,378 - INFO - ['hotel requests', {'2018/04/10': 1}]
+2018-04-10 10:34:17,896 - INFO - ['hotel requests success', {'message': 'SUCCESS', 'code': 200, 'data': {'matchingType': 1, 'enterpriseInfo': {'hotelTaxIllegal': 0, 'hotelLitigation': 0, 'legalpersonChange': 0, 'hotelPunish': 0, 'shareholderChange': 0}, 'ruzhulvMean': {'rzl8': 83.89, 'rzl9': 70.61, 'rzl4': 79.48, 'rzl5': 70.16, 'rzl6': 72.13, 'rzl7': 94.35, 'rzl1': 66.85, 'rzl2': 62.9, 'rzl3': 69.26, 'yearRzl': 66.64, 'halfYearRzl': 63.39, 'rzl12': 47.67, 'rzl10': 40.14, 'rzl11': 43.7}, 'roomPrice': {'meanPrice': 0.0, 'medianPrice': 0.0}, 'companyName': u'\u91cd\u5e86\u5b89\u901a\u5bbe\u9986\u6709\u9650\u516c\u53f8'}}]
+2018-04-10 11:47:31,617 - INFO - 服务已经启动...

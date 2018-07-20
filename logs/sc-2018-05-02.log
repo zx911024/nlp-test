@@ -1,0 +1,15 @@
+2018-05-02 17:58:16,696 - INFO - 服务已经启动...
+2018-05-02 18:00:32,427 - INFO - 服务已经启动...
+2018-05-02 18:01:07,773 - INFO - ['hotel requests', {'2018/05/02': 1}]
+2018-05-02 18:01:09,599 - INFO - ['hotel requests success', {'message': 'SUCCESS', 'code': 200, 'data': {'matchingType': 1, 'enterpriseInfo': {'hotelTaxIllegal': 0, 'hotelLitigation': 0, 'legalpersonChange': 0, 'hotelPunish': 0, 'shareholderChange': 0}, 'ruzhulvMean': {'rzl8': 57.29, 'rzl9': 41.89, 'rzl4': 46.74, 'rzl5': 52.99, 'rzl6': 49.19, 'rzl7': 52.82, 'rzl1': 52.21, 'rzl2': 47.67, 'rzl3': 49.37, 'yearRzl': 44.31, 'halfYearRzl': 39.15, 'rzl12': 28.97, 'rzl10': 24.92, 'rzl11': 29.02}, 'roomPrice': {'meanPrice': 0.0, 'medianPrice': 0.0}, 'companyName': u'\u91cd\u5e86\u6d32\u9645\u9152\u5e97\u6295\u8d44\u6709\u9650\u516c\u53f8'}}]
+2018-05-03 09:39:47,450 - INFO - ['hotel requests', {'2018/05/03': 1}]
+2018-05-03 09:39:47,485 - ERROR - Traceback (most recent call last):
+  File "/home/zhangxun/projectfile/hotelProject/hotel-credit/hotel_loan/process/hotelAnalysis.py", line 45, in main
+    ruzhulvMeanYear=ruzhulvMean.ruzhulvMean(hotelBianma)
+  File "/home/zhangxun/projectfile/hotelProject/hotel-credit/hotel_loan/utils/ruzhulvMean.py", line 71, in ruzhulvMean
+    ruzhulvDaydate = map(lambda x: [x["ruzhuriqi"], x["ruzhulv"]], data)
+  File "/home/zhangxun/projectfile/hotelProject/hotel-credit/hotel_loan/utils/ruzhulvMean.py", line 71, in <lambda>
+    ruzhulvDaydate = map(lambda x: [x["ruzhuriqi"], x["ruzhulv"]], data)
+KeyError: 'ruzhuriqi'
+
+2018-05-03 09:39:47,486 - INFO - ['hotel requests success', {'message': 'SUCCESS', 'code': 200, 'data': {}}]
