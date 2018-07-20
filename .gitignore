@@ -1,0 +1,20 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# My configurations:
+NER_BILSTM_CRF/ckpt/*
+NER_BILSTM_CRF/ckpt_biLSTM/*
+NER_BILSTM_CRF/ckpt_IDCNN/*
+NER_BILSTM_CRF/data/*
+NER_BILSTM_CRF/log/*
+
